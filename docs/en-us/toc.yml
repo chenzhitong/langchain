@@ -1,0 +1,318 @@
+﻿- name: Site Map
+  href: /docs/en-us/index.md
+- name: Glossary
+  href: /docs/en-us/intro/glossary.md
+- name: Getting Started (C#)
+  items:
+  - name: Before You Begin
+    href: /docs/en-us/gettingstarted/prerequisites.md
+  - name: Setting up local network
+    href: /docs/en-us/gettingstarted/enviroment.md
+  - name: Developing a Contract
+    href: /docs/en-us/gettingstarted/develop.md
+  - name: Deploying and Invoking the Contract
+    href: /docs/en-us/gettingstarted/deploy.md
+- name: Neo Basics
+  - name: Main Concepts
+    - name: Blockchain Models
+      - name: Block
+        href: /docs/en-us/basic/concept/blockchain/block.md
+      - name: Tokens
+        href: /docs/en-us/basic/concept/blockchain/token_model.md
+    - name: Cryptography
+      href:
+      - name: Encode Algorithm
+        href:  /docs/en-us/basic/concept/cryptography/encode_algorithm.md
+      - name: Hash Algorithm
+        href: /docs/en-us/basic/concept/cryptography/hash_algorithm.md
+      - name: Encryption Algorithm
+        href: /docs/en-us/basic/concept/cryptography/encryption_algorithm.md
+      - name: Merkle Tree
+        href: /docs/en-us/basic/concept/cryptography/merkletree.md
+    - name: Wallet
+      href: /docs/en-us/basic/concept/wallets.md
+    - name: Transaction
+      href: /docs/en-us/basic/concept/transaction.md
+  - name: Consensus
+    - name: Overview
+      href: /docs/en-us/basic/consensus/dbft.md
+    - name: Consensus Algorithm
+      href: /docs/en-us/basic/consensus/consensus_algorithm.md
+    - name: Consensus Protocol
+      href: /docs/en-us/basic/consensus/consensus_protocol.md
+    - name: Election
+      href: /docs/en-us/basic/consensus/vote_validator.md
+  - name: Governance and Incentives
+    href: /docs/en-us/basic/governance.md
+  - name: NeoVM
+    href: /docs/en-us/basic/neovm.md
+- name: Neo Node
+  items:
+  - name: Introduction
+    href: /docs/en-us/node/introduction.md
+  - name: Neo-CLI
+    items:
+    - name: Installation
+      href: /docs/en-us/node/cli/setup.md
+    - name: Configuring and Starting neo-cli
+      href: /docs/en-us/node/cli/config.md
+    - name: Command Line
+      href: /docs/en-us/node/cli/cli.md
+  - name: Neo-GUI
+    items:
+    - name: Installation
+      href: /docs/en-us/node/gui/install.md
+    - name: Blockchain
+      href: /docs/en-us/node/gui/blockchain.md
+    - name: Wallet
+      href: /docs/en-us/node/gui/wallet.md
+    - name: Contract
+      href: /docs/en-us/node/gui/contract.md
+    - name: Advanced Functions
+      href: /docs/en-us/node/gui/advanced.md
+  - name: Synchronizing the blockchain faster
+    href: /docs/en-us/node/syncblocks.md
+- name: Development Guide
+  items:
+  - name: Neo Network
+    items:
+    - name: Main Net and Test Net
+      href: /docs/en-us/develop/network/testnet.md
+    - name: Setting up Private Chain
+      items:
+      - name: Solo Mode
+        href: /docs/en-us/develop/network/private-chain/solo.md
+      - name: Multiple Nodes
+        href: /docs/en-us/develop/network/private-chain/private-chain2.md
+  - name: Writing smart contracts
+    items:
+    - name: Basics
+      href: /docs/en-us/develop/write/basics.md
+    - name: NEP-11
+      href: /docs/en-us/develop/write/nep11.md
+    - name: NEP-17
+      href: /docs/en-us/develop/write/nep17.md
+    - name: NEF and Manifest Files
+      href: /docs/en-us/develop/write/manifest.md
+    - name: Contract Migration and Destruction
+      href: /docs/en-us/develop/write/update.md
+    - name: Differences than Neo Legacy
+      href: /docs/en-us/develop/write/difference.md
+  - name: Deploying and Invoking Smart Contracts
+    - name: Deploying Smart Contracts
+      href: /docs/en-us/develop/deploy/deploy.md
+    - name: Invoking Smart Contracts
+      href: /docs/en-us/develop/deploy/invoke.md
+  - name: Development Tools
+    - name: Neo SDK
+      items:
+      - name: About Neo SDK
+        href: /docs/en-us/develop/tool/sdk/introduction.md
+      - name: RPC Invocation Methods
+        href: /docs/en-us/develop/tool/sdk/rpc.md
+      - name: Getting Blockchain Information
+        href: /docs/en-us/develop/tool/sdk/monitor.md
+      - name: Wallet Interfaces
+        href: /docs/en-us/develop/tool/sdk/wallet.md
+      - name: Transaction Construction
+        href: /docs/en-us/develop/tool/sdk/transaction.md
+      - name: Deploying and Invoking Contracts
+        href: /docs/en-us/develop/tool/sdk/contract.md
+- name: Advanced Topics
+  items:
+  - name: Oracles
+    href:  /docs/en-us/advanced/oracle.md
+- name: Reference
+  items:
+  - name: RPC API
+    - name: API Reference
+      href:  /docs/en-us/reference/rpc/latest-version/api.md
+    - name: calculatenetworkfee
+      href: /docs/en-us/reference/rpc/latest-version/api/calculatenetworkfee.md
+    - name: closewallet
+      href: /docs/en-us/reference/rpc/latest-version/api/closewallet.md
+    - name: dumpprivkey
+      href: /docs/en-us/reference/rpc/latest-version/api/dumpprivkey.md
+    - name: findstates
+      href: /docs/en-us/reference/rpc/latest-version/api/findstates.md
+    - name: getapplicationlog
+      href: /docs/en-us/reference/rpc/latest-version/api/getapplicationlog.md
+    - name: getbestblockhash
+      href: /docs/en-us/reference/rpc/latest-version/api/getbestblockhash.md
+    - name: getblock
+      href: /docs/en-us/reference/rpc/latest-version/api/getblock.md
+    - name: getblockcount
+      href: /docs/en-us/reference/rpc/latest-version/api/getblockcount.md
+    - name: getblockhash
+      href: /docs/en-us/reference/rpc/latest-version/api/getblockhash.md
+    - name: getblockheader
+      href: /docs/en-us/reference/rpc/latest-version/api/getblockheader.md
+    - name: getcommittee
+      href: /docs/en-us/reference/rpc/latest-version/api/getcommittee.md
+    - name: getconnectioncount
+      href: /docs/en-us/reference/rpc/latest-version/api/getconnectioncount.md
+    - name: getcontractstate
+      href: /docs/en-us/reference/rpc/latest-version/api/getcontractstate.md
+    - name: getnativecontracts
+      href: /docs/en-us/reference/rpc/latest-version/api/getnativecontracts.md
+    - name: getnep11balances
+      href: /docs/en-us/reference/rpc/latest-version/api/getnep11balances.md
+    - name: getnep11properties
+      href: /docs/en-us/reference/rpc/latest-version/api/getnep11properties.md
+    - name: getnep11transfers
+      href: /docs/en-us/reference/rpc/latest-version/api/getnep11transfers.md
+    - name: getnep17balances
+      href: /docs/en-us/reference/rpc/latest-version/api/getnep17balances.md
+    - name: getnep17transfers
+      href: /docs/en-us/reference/rpc/latest-version/api/getnep17transfers.md
+    - name: getnewaddress
+      href: /docs/en-us/reference/rpc/latest-version/api/getnewaddress.md
+    - name: getnextblockvalidators
+      href: /docs/en-us/reference/rpc/latest-version/api/getnextblockvalidators.md
+    - name: getpeers
+      href: /docs/en-us/reference/rpc/latest-version/api/getpeers.md
+    - name: getproof
+      href: /docs/en-us/reference/rpc/latest-version/api/getproof.md
+    - name: getrawmempool
+      href: /docs/en-us/reference/rpc/latest-version/api/getrawmempool.md
+    - name: getrawtransaction
+      href: /docs/en-us/reference/rpc/latest-version/api/getrawtransaction.md
+    - name: getstate
+      href: /docs/en-us/reference/rpc/latest-version/api/getstate.md
+    - name: getstateheight
+      href: /docs/en-us/reference/rpc/latest-version/api/getstateheight.md
+    - name: getstateroot
+      href: /docs/en-us/reference/rpc/latest-version/api/getstateroot.md
+    - name: getstorage
+      href: /docs/en-us/reference/rpc/latest-version/api/getstorage.md
+    - name: gettransactionheight
+      href: /docs/en-us/reference/rpc/latest-version/api/gettransactionheight.md
+    - name: getunclaimedgas
+      href: /docs/en-us/reference/rpc/latest-version/api/getunclaimedgas.md
+    - name: getversion
+      href: /docs/en-us/reference/rpc/latest-version/api/getversion.md
+    - name: getwalletbalance
+      href: /docs/en-us/reference/rpc/latest-version/api/getwalletbalance.md
+    - name: getwalletunclaimedgas
+      href: /docs/en-us/reference/rpc/latest-version/api/getwalletunclaimedgas.md
+    - name: importprivkey
+      href: /docs/en-us/reference/rpc/latest-version/api/importprivkey.md
+    - name: invokecontractverify
+      href: /docs/en-us/reference/rpc/latest-version/api/invokecontractverify.md
+    - name: invokefunction
+      href: /docs/en-us/reference/rpc/latest-version/api/invokefunction.md
+    - name: invokescript
+      href: /docs/en-us/reference/rpc/latest-version/api/invokescript.md
+    - name: listaddress
+      href: /docs/en-us/reference/rpc/latest-version/api/listaddress.md
+    - name: listplugins
+      href: /docs/en-us/reference/rpc/latest-version/api/listplugins.md
+    - name: openwallet
+      href: /docs/en-us/reference/rpc/latest-version/api/openwallet.md
+    - name: sendfrom
+      href: /docs/en-us/reference/rpc/latest-version/api/sendfrom.md
+    - name: sendmany
+      href: /docs/en-us/reference/rpc/latest-version/api/sendmany.md
+    - name: sendrawtransaction
+      href: /docs/en-us/reference/rpc/latest-version/api/sendrawtransaction.md
+    - name: sendtoaddress
+      href: /docs/en-us/reference/rpc/latest-version/api/sendtoaddress.md
+    - name: submitblock
+      href: /docs/en-us/reference/rpc/latest-version/api/submitblock.md
+    - name: traverseiterator
+      href: /docs/en-us/reference/rpc/latest-version/api/traverseiterator.md
+    - name: validateaddress
+      href: /docs/en-us/reference/rpc/latest-version/api/validateaddress.md
+    - name: verifyproof
+      href: /docs/en-us/reference/rpc/latest-version/api/verifyproof.md
+  - name: Smart Contract API
+    - name: Interoperable service
+      href: /docs/en-us/reference/scapi/interop.md
+    - name: C# Smart Contract Framework
+      items: 
+      - name: Framework
+        href: /docs/en-us/reference/scapi/framework.md
+      - name: Framework.Native
+        items: Native
+        - name: Framework.Native
+          href: /docs/en-us/reference/scapi/framework/native.md
+        - name: ContractManagement
+          href: /docs/en-us/reference/scapi/framework/native/ContractManagement.md
+        - name: CryptoLib
+          href: /docs/en-us/reference/scapi/framework/native/CryptoLib.md
+        - name: Gas
+          href: /docs/en-us/reference/scapi/framework/native/Gas.md
+        - name: Ledger
+          href: /docs/en-us/reference/scapi/framework/native/Ledger.md
+        - name: NamedCurve
+          href: /docs/en-us/reference/scapi/framework/native/NamedCurve.md
+        - name: Neo
+          href: /docs/en-us/reference/scapi/framework/native/Neo.md
+        - name: Oracle
+          href: /docs/en-us/reference/scapi/framework/native/Oracle.md
+        - name: OracleResponseCode
+          href: /docs/en-us/reference/scapi/framework/native/OracleResponseCode.md
+        - name: Policy
+          href: /docs/en-us/reference/scapi/framework/native/Policy.md
+        - name: Role
+          href: /docs/en-us/reference/scapi/framework/native/Role.md
+        - name: RoleManagement
+          href: /docs/en-us/reference/scapi/framework/native/RoleManagement.md
+        - name: StdLib
+          href: /docs/en-us/reference/scapi/framework/native/StdLib.md
+      - name: Framework.Services
+        items: Services
+        - name: Framework.Services
+          href: /docs/en-us/reference/scapi/framework/services.md
+        - name: Block
+          href: /docs/en-us/reference/scapi/framework/services/Block.md
+        - name: CallFlags
+          href: /docs/en-us/reference/scapi/framework/services/CallFlags.md
+        - name: Contract
+          href: /docs/en-us/reference/scapi/framework/services/Contract.md
+        - name: Crypto
+          href: /docs/en-us/reference/scapi/framework/services/Crypto.md
+        - name: FindOptions
+          href: /docs/en-us/reference/scapi/framework/services/FindOptions.md
+        - name: Iterator
+          href: /docs/en-us/reference/scapi/framework/services/Iterator.md
+        - name: Notification
+          href: /docs/en-us/reference/scapi/framework/services/Notification.md
+        - name: Runtime
+          href: /docs/en-us/reference/scapi/framework/services/Runtime.md
+        - name: Storage
+          href: /docs/en-us/reference/scapi/framework/services/Storage.md
+        - name: StorageContext
+          href: /docs/en-us/reference/scapi/framework/services/StorageContext.md
+        - name: StorageMap
+          href: /docs/en-us/reference/scapi/framework/services/StorageMap.md
+        - name: Transaction
+          href: /docs/en-us/reference/scapi/framework/services/Transaction.md
+        - name: TriggerType
+          href: /docs/en-us/reference/scapi/framework/services/TriggerType.md
+  - name: Governance API
+    href: /docs/en-us/reference/governance_api.md
+  - name: NNS API
+    href: /docs/en-us/reference/nns.md
+  - name: Fees
+    href: /docs/en-us/reference/fees.md
+  - name: NeoVM Instructions
+    href: /docs/en-us/reference/neo_vm.md
+- name: Document for Exchange Developers
+  items:
+  - name: Overview
+    href:  /docs/en-us/exchange/general.md
+  - name: Deploying Neo nodes
+    href: /docs/en-us/exchange/deploynode.md
+  - name: Using Neo-CLI
+    href: /docs/en-us/exchange/client.md
+  - name: Dealing with assets transactions
+    href: /docs/en-us/exchange/transaction.md
+  - name: Distributing GAS to users
+    href: /docs/en-us/exchange/gas.md 
+- name: Cross-chain Migration Guide
+  items:
+  - name: Migration Development
+    href: /tutorials/en-us/migrationB.md
+  - name: Migration Guide on Migration Page
+    href: /tutorials/en-us/migration-guide.md
